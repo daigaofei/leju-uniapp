@@ -1,0 +1,65 @@
+.modifyUser{
+	width: 100%;
+	padding: 30rpx;
+	height: calc(100vh - 88rpx);
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	.content{
+		width: 100%;
+		.modifBtn{
+			height: 60rpx;
+			border: 2rpx solid #000;
+			width: 250rpx;
+			border-radius: 10rpx;
+			text-align: center;
+			line-height: 60rpx;
+			margin-left: 63%;
+		}
+		.box{
+			padding: 35rpx 0;
+			border-bottom: 2rpx solid #C0C0C0;
+			display: flex;
+			justify-content: space-between;	
+			.ipt1{
+				width: 300rpx;
+				text-align: right;
+				color: #C0C0C0;
+			}
+			.ipt{
+				width: 300rpx;
+				text-align: right;
+			}
+			
+		}
+		.usericon{
+			align-items: center;
+			image{
+				border-radius: 50%;
+			}
+			.updataIcon{
+				height: 60rpx;
+				border: 2rpx solid #000;
+				width: 200rpx;
+				border-radius: 10rpx;
+				text-align: center;
+				line-height: 60rpx;
+			}
+			image{
+				height:120rpx ;
+				width: 120rpx;
+			}
+		}
+		.backLogin{
+			height: 80rpx;
+			width: 300rpx;
+			background-color:#354E44;
+			margin:300rpx auto 0;
+			border-radius: 10rpx;
+			color: #FFFFFF;
+			text-align: center;
+			line-height: 80rpx;
+			
+		}
+	}
+}
+

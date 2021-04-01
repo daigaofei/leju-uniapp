@@ -1,0 +1,22 @@
+.details{
+	height: 100vh;
+	
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	.total{
+		padding: 30rpx;
+		background-color: #F1ECE7;
+	}
+	.title{
+		font-size: 46rpx;
+		font-weight: 800;
+		
+	}
+	.author,.createTime{
+		text-align: right;
+	}
+	.coverImg{
+		width: 100%;
+		margin: 30rpx 0rpx;
+	}
+}

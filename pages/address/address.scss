@@ -1,0 +1,62 @@
+.address{
+	width: 100%;
+	height: calc(100vh - 88rpx);
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	padding: 30rpx;
+	.content{
+		width: 100%;
+		box-sizing: border-box;
+		background-color: #F1ECE7;
+		.item{
+			border-bottom: 1px solid #C0C0C0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20rpx;
+			height: 100rpx;
+			.detail{
+				width: 550rpx;
+				.name{
+					
+					margin-bottom: 20rpx;
+					.default{
+						background-color:#354E44 ;
+						padding: 2rpx 10rpx;
+						border-radius: 10rpx;
+						color: #FFFFFF;
+						font-size: 28rpx;
+						margin-left: 10rpx;
+					}
+				}
+				.tel{
+					color: #737373;
+					font-size: 28rpx;
+				}
+			}
+			.edit{
+				padding: 20rpx;
+				border-left: 2rpx solid #C0C0C0;
+				display: flex;
+				align-items: center;
+				image{
+					height: 40rpx;
+					width: 40rpx;
+					
+				}
+			}
+		}
+	}
+	.addAddress{
+		height: 88rpx;
+		width: 500rpx;
+		background-color:#354E44;
+		border-radius: 50rpx;
+		text-align: center;
+		line-height: 88rpx;
+		position: fixed;
+		left: 125rpx;
+		bottom: 30rpx;
+		color: #FFFFFF;
+	}
+}

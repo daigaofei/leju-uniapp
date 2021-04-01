@@ -1,0 +1,270 @@
+.goodsDetails{
+	position: relative;
+	background-color: #F1ECE7;
+	height: fit-content;
+	padding-bottom: 150rpx;
+	.more{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0rpx 50rpx;
+	}
+	.swiper{
+		height: 700rpx;
+		width: 100%;
+		.swiper-item{
+			width: 100%;
+			height: 700rpx;
+			image{
+				width: 100%;
+				height: 700rpx;
+			}
+		}
+	}
+	.priceDesc{
+		width: 100%;
+		padding: 100rpx;
+		box-sizing: border-box;
+		position: relative;
+		.collect{
+			background-color:#354E44 ;
+			padding: 10rpx;
+			border-radius: 50%;
+			position: absolute;
+			top: -50rpx;
+			right: 50rpx;
+			
+			
+				
+		}
+		.price{
+			margin-bottom: 10rpx;
+			.zero{
+				color: red;
+				font-weight: 800;
+				font-size: 32rpx;
+			}
+			.icon{
+				color: red;
+				font-weight: 800;
+				font-size: 32rpx;
+			}
+			.newPrice{
+				margin-left: -10rpx;
+				font-size: 58rpx;
+				font-weight: 800;
+				letter-spacing: -10rpx;
+				color: red;
+			}
+			.oldPrice{
+				color: #C0C0C0;
+				text-decoration: line-through;
+				margin-right: 10rpx;
+			}
+			.active{
+				background-color: red;
+				color: #FFFFFF;
+				font-size: 13rpx;
+				padding: 5rpx 15rpx;
+				border-radius: 10rpx;
+				position: relative;
+				display: inline-block;
+				
+				.dotsleft,.dotsright{
+					display: block;
+					height: 15rpx;
+					width: 15rpx;
+					background-color: #F1ECE7;
+					
+					position: absolute;
+					
+					
+				}
+				.dotsleft{
+					border-radius: 0 50% 50% 0;
+					left: -7rpx;
+					top: 12rpx;
+				}
+				.dotsright{
+					border-radius: 50% 0 0 50%;
+					right: -7rpx;
+					top: 12rpx;
+				}
+			}
+			
+		}
+		.goodsName{
+			font-size: 36rpx;
+			font-weight: 800;
+			margin-bottom: 20rpx;
+		}
+		.desc{
+			width: 100%;
+			font-size: 26rpx;
+			color: #666;
+			
+		}
+	}
+	
+	.shopBtn{
+		position: fixed;
+		bottom: 0;
+		height: 150rpx;
+		width: 100%;
+		background-color: #FFFFFF;
+		box-sizing: border-box;
+		padding: 0rpx 70rpx;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		image{
+			height: 46rpx;
+			width: 46rpx;
+		}
+		.buyBtn{
+			display: flex;
+			text-align: center;
+			line-height: 88rpx;
+		}
+		.addShop{
+			width: 262rpx;
+			height: 88rpx;
+			background-color: #cecece;
+			color:#8d8d8d;
+		}
+		.buy{
+			width: 262rpx;
+			height: 88rpx;
+			background-color: #354E44;
+			color:#FFFFFF;
+		}
+		
+	}
+	.buyMask{
+		box-sizing: border-box;
+		height: 100vh;
+		width: 100%;
+		background-color:rgba(0,0,0,0.3);
+		position: fixed;
+		top:0 ;
+		left: 0;
+		padding: 30rpx;
+		.content{
+			box-sizing: border-box;
+			padding: 50rpx;
+			height: 900rpx;
+			width: 80%;
+			background-color: #FFFFFF;
+			border-radius: 30rpx;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			.goodsImg{
+				position: absolute;
+				top: -50rpx;
+				display: flex;
+				
+				image{
+					height: 200rpx;
+					width: 200rpx;
+					border-radius: 20rpx;
+				}
+				.desc{
+					padding: 120rpx 0 0 30rpx;
+					.titel1{
+						
+					}
+					.titel2{
+						color: #C0C0C0;
+					}
+				}
+			}
+			.goodsChoose{
+				margin-top: 150rpx;
+			.choosecontent{
+				height: 220rpx;
+				width: 100%;
+				overflow:hidden auto;
+			}
+			.title{
+				font-weight: 800;
+			}
+			.choose{
+				height: 70rpx;
+				margin-top: 20rpx;
+				text-indent: 15rpx;
+				border-radius: 30rpx;
+				font-size: 28rpx;
+				color: #272727;
+				background-color: #d9d9d9;
+				line-height: 70rpx;
+				position: relative;
+				>view{
+					border: 1px solid transparent;
+				}
+				image{
+					position: absolute;
+					top: -50rpx;
+				}
+				
+				.border{
+					
+					border: 1px solid #000;
+					border-radius: 30rpx;
+					
+				}
+			}
+			}
+			.goodsChoose2{
+				margin-top: 0rpx;
+			}
+			.close{ 
+				height: 50rpx;
+				width: 50rpx;
+				position: absolute;
+				top: 20rpx;
+				right: 20rpx;
+				
+			}
+			
+		}
+		.buyNum{
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: 90rpx;
+			.right{
+				height: 90rpx;
+				width: 250rpx;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				view{
+					height: 60rpx;
+					width: 60rpx;
+					border-radius: 50%;
+					text-align: center;
+					line-height: 60rpx;
+					background-color: #ccc;
+				}
+				view:nth-child(2){
+					width: 90rpx;
+					border-radius: 40rpx;
+				}
+			}
+		}
+		.sureBtn{
+			height: 70rpx;
+			width: 200rpx;
+			background-color: #354E44;
+			text-align: center;
+			line-height: 70rpx;
+			color: #FFFFFF;
+			border-radius: 20rpx;
+			margin: 10rpx auto;
+		}
+	}
+}

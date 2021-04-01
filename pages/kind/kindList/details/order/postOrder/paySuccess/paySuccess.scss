@@ -1,0 +1,28 @@
+.paySuccess{
+	width: 100%;
+	box-sizing: border-box;
+	height: calc(100vh - 88rpx);
+	background-color: #F1ECE7;
+	padding: 30rpx;
+	.content{
+		margin-top: 250rpx;
+		view{
+			font-size: 38rpx;
+			text-align: center;
+		}
+		view:first-child{
+			font-size: 48rpx;
+		}
+		
+		
+	}
+	.personcenter{
+		height: 80rpx;
+		width: 240rpx;
+		border: 1px solid #484848;
+		text-align: center;
+		line-height: 80rpx;
+		border-radius: 20rpx;
+		margin: 700rpx auto;
+	}
+}

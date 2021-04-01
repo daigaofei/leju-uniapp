@@ -1,0 +1,56 @@
+.newAddress{
+	width: 100%;
+	height: calc(100vh - 88rpx);
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	padding: 30rpx;
+	.content{
+		width: 100%;
+		box-sizing: border-box;
+		background-color: #F1ECE7;
+		form{
+			.box{
+				width: 100%;
+				height: 120rpx;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				border-bottom: 1px solid #C0C0C0;
+				text{
+					width: 244rpx;
+					margin-right: 50rpx;
+					color: #808080;
+				}
+				input{
+					width: 400rpx;
+				}
+				.chooseAddress{
+					color: #000;
+					width: 400rpx;
+					margin-right: 0rpx;
+				}
+			}
+			.delete{
+				width: 100%;
+				height: 100rpx;
+				background-color: #ff3a3d;
+				text-align: center;
+				line-height: 100rpx;
+				color: #FFFFFF;
+				font-size: 38rpx;
+			}
+			button{
+				width: 500rpx;
+				height: 90rpx;
+				border-radius: 100rpx;
+				color: #FFFFFF;
+				background-color: #354E44;
+				position: fixed;
+				bottom: 30rpx;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+	
+}

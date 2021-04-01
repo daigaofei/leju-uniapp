@@ -1,0 +1,105 @@
+.orderDetail{
+	width: 100%;
+	box-sizing: border-box;
+	height: calc(100vh - 88rpx);
+	background-color: #F1ECE7;
+	padding-top: 50rpx;
+	.topBar{
+		z-index: 99;
+		position: fixed;
+		top: 80rpx;
+		left: 0rpx;
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		background-color:#354E44;
+		padding: 5rpx 30rpx;
+		view{
+			color: #fff;
+			padding-bottom: 10rpx;
+			border-bottom: 4rpx solid transparent;
+		}
+		.orange{
+			color: orange;
+			border-bottom: 4rpx solid orange;
+		}
+		
+	}
+	.content,.orderReturnApplys{
+		width: 100%;
+		padding:60rpx 30rpx;
+		padding-top:60rpx;
+		background-color: #F1ECE7;
+		box-sizing: border-box;
+		.goodList{
+			width: 100%;
+			box-sizing: border-box;
+			padding: 30rpx;
+			background-color: #FFFFFF;
+			margin-bottom: 50rpx;
+			border-radius: 20rpx;
+			.ordernumber{
+				padding-bottom: 15rpx;
+				margin-bottom: 15rpx;
+				display: flex;
+				justify-content: space-between;
+				border-bottom: 2rpx solid #C0C0C0;
+			}
+			.goodItems{
+				padding-bottom: 20rpx;
+				margin-bottom: 20rpx;
+				border-bottom: 2rpx solid #ccc;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 28rpx;
+				image{
+					height: 160rpx;
+					width: 160rpx;
+				}
+				.details{
+					width: 450rpx;
+					.goodname{
+						margin-bottom: 20rpx;
+					}
+					.goodname,.number{
+						display: flex;
+						justify-content: space-between;
+					}
+					.number,.size,.sizeItem{
+						color: #C0C0C0;
+					}
+					.sizeItem{
+						text{
+							margin-right: 30rpx;
+						}
+					}
+				}
+			}
+			.retrueGoods{
+				text-align: right;
+				margin-bottom: 10rpx;
+			}
+			.total{
+				display: flex;
+				justify-content: space-between;
+			}
+			.ordernumber,.total{
+				font-size: 28rpx;
+			}
+			.Btn{
+				font-size: 28rpx;
+				margin-top: 20rpx;
+				display: flex;
+				justify-content: flex-end;
+				text{
+					border-radius: 10rpx;
+					margin-left:20rpx ;
+					padding: 5rpx 30rpx;
+					border: 2rpx solid #C0C0C0;
+				}
+			}
+		}
+	}
+}

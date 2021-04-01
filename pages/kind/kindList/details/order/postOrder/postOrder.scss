@@ -1,0 +1,56 @@
+.postOrder{
+	width: 100%;
+	box-sizing: border-box;
+	height: calc(100vh - 88rpx);
+	background-color: #F1ECE7;
+	padding: 30rpx;
+	.content{
+		width: 100%;
+		background-color: #F1ECE7;
+		.orderId,.orderPrice{
+			margin-bottom: 60rpx;
+		}
+		.choosePay{
+			margin-bottom: 30rpx;
+		}
+		.zhifubao{
+			margin-bottom: 50rpx;
+		}
+		.weixin{
+			margin-bottom: 150rpx;
+		}
+		
+		.payBtn{
+			width: 80%;
+			height: 90rpx;
+			background-color:#354E44 ;
+			border-radius: 50rpx;
+			text-align: center;
+			line-height: 90rpx;
+			color: #FFFFFF;
+			font-weight: 800;
+			margin: 0 auto;
+		}
+		.zhifubao,.weixin{
+			view{
+				display: flex;
+				align-items: center;
+			}
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			image{
+				height: 80rpx;
+				width: 80rpx;
+				margin-right: 30rpx;
+			}
+		}
+		.httppp{
+			font-size: 24rpx;
+			text-align: center;
+			text{
+				color: skyblue;
+			}
+		}
+	}
+}

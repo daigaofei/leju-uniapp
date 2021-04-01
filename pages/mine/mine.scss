@@ -1,0 +1,109 @@
+.mine{
+	padding:60rpx 30rpx 30rpx;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	.header{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		.usericon{
+			height: 200rpx;
+			width: 200rpx;
+			border-radius: 50%;
+			background-color: #C0C0C0;
+			image{
+				height: 200rpx;
+				width: 200rpx;
+				border-radius: 50%;
+			}
+		}
+		.userinformation{
+			height: 150rpx;
+			margin-left: 40rpx;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+	}
+	
+	.loginRegister{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0rpx 0rpx 0 120rpx;
+		display: flex;
+		justify-content: space-around;
+		margin-top: 40rpx;
+		.register,.login{
+			width: 200rpx;
+			height:70rpx;
+			text-align: center;
+			line-height: 70rpx;
+			border: 1px solid #000;
+			border-radius: 20rpx;
+		}
+		.login{
+			background-color: #354E44;
+			border: 1px solid #354E44;
+			color: #FFFFFF;
+		}
+	}
+	.myorder{
+		height: 228rpx;
+		width: 100%;
+		background-color: #FFFFFF;
+		margin-top: 50rpx;
+		box-sizing: border-box;
+		padding: 30rpx;
+		.myorderTitle{
+			width: 100%;
+			height: 50rpx;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 30rpx;
+			
+		}
+		.myorderContent{
+			display: flex;
+			justify-content: space-around;
+			.item{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				font-size: 28rpx;
+				
+			}
+			image{
+				margin-bottom: 10rpx;
+				height: 50rpx;
+				width: 50rpx;
+			}
+		}
+	}
+	.more{
+		box-sizing: border-box;
+		padding: 50rpx 50rpx 0rpx 50rpx ;
+		margin-top: 50rpx;
+		width: 100%;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.item{
+			width: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 60rpx;
+			font-size: 28rpx;
+			image{
+				height: 60rpx;
+				width: 60rpx;
+				margin-bottom: 30rpx;
+			}
+		}
+	}
+	
+}

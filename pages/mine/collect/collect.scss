@@ -1,0 +1,46 @@
+.goodCollect{
+	width: 100%;
+	height: calc(100vh - 88rpx);
+	padding: 30rpx;
+	box-sizing: border-box;
+	background-color: #F1ECE7;
+	.content{
+		width: 100%;
+		background-color: #F1ECE7;
+		.item{
+			height: 200rpx;
+			display: flex;
+			justify-content:space-between ;
+			align-items: center;
+			background-color: #fff;
+			margin-bottom: 30rpx;
+			padding: 20rpx;
+			border-radius: 20rpx;
+			image{
+				height: 160rpx;
+				width: 160rpx;
+			}
+			view{
+				display: flex;
+				flex-wrap: wrap;
+				width: 460rpx;
+				
+				.title{
+					font-size: 28rpx;
+				}
+				.price{
+					display: flex;
+					justify-content: space-between;
+					text:first-child{
+						font-size: 28rpx;
+					}
+					text:last-child{
+						font-size: 32rpx;
+						font-weight: 800;
+						color: #354E44;
+					}
+				}
+			}
+		}
+	}
+}

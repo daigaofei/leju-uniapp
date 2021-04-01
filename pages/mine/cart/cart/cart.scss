@@ -1,0 +1,116 @@
+$box-sizing: border-box;
+.cart{
+	
+	width: 100%;
+	height: calc(100vh - 60px);
+	background-color: #F1ECE7;
+	box-sizing: $box-sizing;
+	.bgc{
+		padding: 30rpx 30rpx 120rpx;
+		box-sizing: border-box;
+		width: 100%;
+		background-color: #F1ECE7;
+	}
+	.content{
+		box-sizing: $box-sizing;
+		
+		width: 100%;
+		padding: 30rpx;
+		background-color: #FFFFFF;
+		margin-bottom: 30rpx;
+		border-radius: 30rpx;
+		
+		.item{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.desc{
+				margin-left: 20rpx;
+				height: 130rpx;
+				
+				.title{
+					overflow: hidden;
+					        text-overflow: ellipsis;
+					        display: -webkit-box;
+					        -webkit-line-clamp:2;
+					        -webkit-box-orient: vertical;
+					font-size: 26rpx;
+				}
+				.price,.num{
+					font-size: 24rpx;
+					color: #C0C0C0;
+				}
+				
+			}
+			.goodsImg{
+				margin-left:20rpx;
+				image{
+					height: 130rpx;
+					width: 130rpx;
+				}
+			}
+		}
+		
+		.quantity{
+			margin-top: 20rpx;
+			display: flex;
+			justify-content: flex-end;
+			view{
+				height: 60rpx;
+				width: 60rpx;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 60rpx;
+				background-color: #F1ECE7;
+			}
+			view:nth-child(2){
+				width: 80rpx;
+				border-radius: 30rpx;
+				margin: 0rpx 10rpx;
+			}
+		}
+	}
+	
+	
+	.total{
+		height: 120rpx;
+		width: 100%;
+		padding: 0rpx 30rpx;
+		display: flex;
+		align-items: center;
+		box-sizing: $box-sizing;
+		justify-content: space-between;
+		background-color: #FFFFFF;
+		position: fixed;
+		bottom: 0rpx;
+		left: 0rpx;
+		.allcheck{
+			font-size: 30rpx;
+			display: flex;
+			.evan-checkbox{
+				margin-left: 20rpx;
+				
+			}
+		}
+		.totalBtn{
+			display: flex;
+			align-items: center;
+			.totalprice{
+				font-size: 30rpx;
+				text{
+					color: red;
+				}
+			}
+			.pay{
+				width: 200rpx;
+				height:80rpx;
+				margin:0rpx 30rpx;
+				text-align: center;
+				line-height: 80rpx;
+				color: #FFFFFF;
+				border-radius: 20rpx;
+				background-color: #354E44;
+			}
+		}
+	}
+}
