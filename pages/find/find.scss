@@ -81,6 +81,29 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				/* #ifdef MP-WEIXIN */
+				.star{
+					display: flex;
+					align-items: center;
+					button{
+						height: 80rpx;
+						width: 80rpx;
+						background-color: #FFFFFF;
+						border:none;
+						outline:none;
+						padding: 10rpx 20rpx 0 0 ;
+					}
+					button::after{
+						border:none;
+					}
+					image{
+						height: 50rpx;
+						width: 50rpx;
+						margin-right: 30rpx;
+					}
+				}
+				/* #endif */
+				
 				.view{
 					width: 100rpx;
 					display: flex;

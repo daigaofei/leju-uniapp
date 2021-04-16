@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/find/find"],{
 
 /***/ 32:
-/*!************************************************************************!*\
-  !*** C:/Users/代高飞/Desktop/leju/main.js?{"page":"pages%2Ffind%2Ffind"} ***!
-  \************************************************************************/
+/*!*********************************************************************************!*\
+  !*** E:/myself/4阶段移动端开发/05-uni-app/leju/main.js?{"page":"pages%2Ffind%2Ffind"} ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17,9 +17,9 @@ createPage(_find.default);
 /***/ }),
 
 /***/ 33:
-/*!*****************************************************!*\
-  !*** C:/Users/代高飞/Desktop/leju/pages/find/find.vue ***!
-  \*****************************************************/
+/*!**************************************************************!*\
+  !*** E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -58,9 +58,9 @@ component.options.__file = "pages/find/find.vue"
 /***/ }),
 
 /***/ 34:
-/*!************************************************************************************************!*\
-  !*** C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=template&id=408c90a6&scoped=true& ***!
-  \************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=template&id=408c90a6&scoped=true& ***!
+  \*********************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80,9 +80,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 35:
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=template&id=408c90a6&scoped=true& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=template&id=408c90a6&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -130,9 +130,9 @@ render._withStripped = true
 /***/ }),
 
 /***/ 36:
-/*!******************************************************************************!*\
-  !*** C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
+/*!***************************************************************************************!*\
+  !*** E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -146,14 +146,19 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 37:
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
 
 
 
@@ -263,8 +268,19 @@ var _mixins = _interopRequireDefault(__webpack_require__(/*! @/pages/mixins/mixi
 //
 //
 //
-var _default = { data: function data() {return { list: {}, change: true, Article: [], Brands: [] };}, mixins: [_mixins.default], onLoad: function onLoad() {var _this = this;(0, _find.findArticleByPage)(1, 20).then(function (res) {console.log(res);res.data.rows.forEach(function (ele) {ele.color = false;});var item = uni.getStorageSync("star");if (item) {res.data.rows.forEach(function (ele) {item.forEach(function (eles) {if (eles.id == ele.id) {ele.color = true;}});});}_this.Article = res.data.rows;});(0, _find.findBrandsByPage)(1, 20).then(function (res) {console.log(res);_this.Brands = res.data.rows;});}, methods: { star: function star(val, index) {console.log(val, index);if (this.checkLogin()) {//如果已经登录,看本本地是否有star
-        var star = uni.getStorageSync("star");if (star) {var item = star.find(function (ele) {return ele.id == val.id;});if (item) {var index = star.findIndex(function (ele) {return ele.id == val.id;});this.Article.forEach(function (ele) {if (ele.id == item.id) {
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { list: {}, change: true, Article: [], Brands: [] };}, mixins: [_mixins.default], onLoad: function onLoad() {var _this = this;(0, _find.findArticleByPage)(1, 20).then(function (res) {console.log(res);res.data.rows.forEach(function (ele) {ele.color = false;});var item = uni.getStorageSync("star");if (item) {res.data.rows.forEach(function (ele) {item.forEach(function (eles) {if (eles.id == ele.id) {ele.color = true;}});});}_this.Article = res.data.rows;});(0, _find.findBrandsByPage)(1, 20).then(function (res) {console.log(res);_this.Brands = res.data.rows;});}, onShareAppMessage: function onShareAppMessage(e) {console.log(e);return { title: "给我冲", path: "/pages/home/home", imageUrl: "/static/icons/share.png" };}, methods: { star: function star(val, index) {console.log(val, index);if (this.checkLogin()) {//如果已经登录,看本本地是否有star
+        var star = uni.getStorageSync("star");
+        if (star) {
+          var item = star.find(function (ele) {return ele.id == val.id;});
+          if (item) {
+            var index = star.findIndex(function (ele) {return ele.id == val.id;});
+            this.Article.forEach(function (ele) {
+              if (ele.id == item.id) {
                 ele.color = false;
                 uni.showToast({
                   icon: "none",
@@ -322,9 +338,9 @@ var _default = { data: function data() {return { list: {}, change: true, Article
 /***/ }),
 
 /***/ 40:
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=style&index=0&id=408c90a6&lang=scss&scoped=true& ***!
-  \***************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=style&index=0&id=408c90a6&lang=scss&scoped=true& ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -338,9 +354,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 41:
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/代高飞/Desktop/leju/pages/find/find.vue?vue&type=style&index=0&id=408c90a6&lang=scss&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/myself/4阶段移动端开发/05-uni-app/leju/pages/find/find.vue?vue&type=style&index=0&id=408c90a6&lang=scss&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

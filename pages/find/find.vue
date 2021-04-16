@@ -24,8 +24,13 @@
 							<uni-icons class="see" type="eye" size="30" color="gray"></uni-icons>
 							<text>{{item.viewCount}}</text>
 						</view>
-						<view class="star" @tap="star(item,index)">
-							<uni-icons  :color="item.color?'red':'black'" type="star" size="30"></uni-icons>
+						<view class="star">
+							<!-- #ifdef MP-WEIXIN -->
+							<image src="../../static/icons/zan.png" mode=""></image>
+							<button type="default" open-type="share"><image src="../../static/icons/share.png" mode=""></image></button>
+							<!-- #endif -->
+							
+							<uni-icons  :color="item.color?'red':'black'" type="star" size="30"  @tap="star(item,index)"></uni-icons>
 						</view>
 					</view>
 				</view>
@@ -98,6 +103,17 @@
 			
 
 		},
+		// #ifdef MP-WEIXIN
+		onShareAppMessage(e){
+			console.log(e);
+			return {
+				title:"给我冲",
+				path:"/pages/home/home",
+				imageUrl:"/static/icons/share.png"
+			}
+		},
+		// #endif
+		
 		methods: {
 			star(val,index){
 				console.log(val,index);

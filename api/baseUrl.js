@@ -1,4 +1,5 @@
-export default "https://leju.bufan.cloud"
+// export default "https://leju.bufan.cloud"
+export default "http://localhost"
 
 
 
@@ -7,7 +8,7 @@ export default "https://leju.bufan.cloud"
 
 // if(process.env.NODE_ENV === 'development'){
 	// 这个地址需要开启本地服务
-//     baseUrl = "http://localhost/"
+    // baseUrl = "http://localhost"
 // }else{
 //     baseUrl = "https://leju.bufan.cloud"
 // }
